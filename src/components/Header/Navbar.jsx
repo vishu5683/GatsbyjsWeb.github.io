@@ -28,7 +28,11 @@ const Navbar = () => {
               alignItems: "center",
             }}
           >
-            < StaticImage className="Logoimg" src="./assets/logo.png" alt="logo" />
+            < StaticImage className="Logoimg" src="./assets/logo.png" alt="logo"  
+      layout="constrained"
+      width={50}
+      height={50}
+      />
             <div className="brandNameContainer">
               <h2 className="brandNameHeading brandNameHeading1">Sternet</h2>
               <h2 className="brandNameHeading brandNameHeading2">Smart</h2>

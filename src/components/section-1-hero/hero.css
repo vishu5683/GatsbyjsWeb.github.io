@@ -1,0 +1,125 @@
+.banner_wrap {
+    background-image: url(./assets/hero1.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: calc(100vh - 177px);
+    display: flex;
+    align-items: center;
+
+
+    @media only screen and (max-width: 576px) {
+        background-image: url(./assets/medphn.png);
+        background-size: 100% 100%;
+        text-align: left;
+        position: relative;
+        left: auto;
+        right: auto; 
+        top: auto;
+        bottom: auto; 
+        /* padding-left: 138px; */
+        height: 90vh;
+    }
+
+}
+
+.banner_wrap .carousel-caption {
+    text-align: left;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    padding-left: 150px;
+
+    @media only screen and (max-width: 576px) {
+        
+            padding-left: 20px!important;
+            padding-right: 20px!important;
+           
+            margin-top: 200px;
+        margin-bottom: auto;
+        /* bottom: 0; */
+    }
+    @media only screen and (min-width: 576px) {
+        /* padding-left: 20px!important;
+        padding-right: 20px!important; */
+       
+        margin-top: 100px;
+    /* margin-bottom: auto; */
+    }
+
+
+    @media only screen and (min-width: 992px){
+        /* padding-left: 20px!important;
+        padding-right: 20px!important; */
+       
+    }
+    
+}
+
+
+
+
+
+.small_circle_box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.small_circle_box .circle_shap {
+    width: 54px;
+    height: 54px;
+    border-radius: 100%;
+    margin-right: 15px;
+    background-color: #FFCF88;
+    border: 2px solid #fff;
+}
+
+.small_circle_box .circle_shap:nth-child(2) {
+    background-color: #ffffff;
+    border: 2px solid #fff;
+}
+
+.small_circle_box .circle_shap:nth-child(3) {
+    background-color: #BBFFF7;
+    border: 2px solid #BBFFF7;
+}
+
+.try_button button {
+    background: #2883FF;
+    padding: 10px 40px;
+    border: 0px;
+    margin-top: 20px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 500;
+
+     @media only screen and (max-width: 576px){
+    padding: 5px 20px!important;
+    font-size: 19px;
+   /* margin-bottom: 100px; */
+    }
+}
+
+.button{
+    border: none;
+
+
+}
+
+/* .banner_wrap p.carousel-text {
+    @media only screen and (max-width: 576px){
+        
+            font-size: 15px;
+       
+
+    }
+} */
+
+.small_circle_box .circle_shap {
+    @media only screen and (max-width: 576px) {
+        width: 45px!important;
+    height: 45px!important;
+    }
+}

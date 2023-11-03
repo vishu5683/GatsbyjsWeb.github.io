@@ -1,0 +1,125 @@
+.sec_wrap {
+    background: #fff;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.read_btn button {
+    margin-right: 15px;
+}
+
+.read_btn {
+    display: flex;
+    padding-left: 0px;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    left: 40px;
+    background-color: #0d6efd;
+    top: 350px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-size: 20px 25px;
+}
+
+.carousel-control-next {
+    right: auto;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    left: 100px;
+    background-color: #0d6efd;
+    top: 350px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-size: 20px 25px;
+}
+
+.goods_wrap {
+    padding: 40px 150px 50px 150px;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+
+.goods_wrap h1 {
+    margin-bottom: 40px;
+}
+
+.goods_wrap .carouselimg {
+    margin-left: 20px;
+    border-radius: 0px 12px 12px 0px;
+    width: 100%;
+}
+
+.leftcontent {
+    padding: 50px 40px;
+}
+
+.leftcontent h2 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(30, 49, 100);
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.tv-section {
+    position: relative;
+}
+
+.tv-section h1 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 48px;
+    color: rgb(30, 49, 100);
+}
+
+@media only screen and (max-width: 576px) { .ftco-gallery h2 {
+    font-size: 22px;
+    padding-top: 20px!important;
+    padding-bottom: 10px!important;
+}
+.ftco-gallery .ftco-animate p {
+    font-size: 15px!important;
+}
+.ftco-gallery .form-control {
+    height: 50px!important;
+    font-size: 18px!important;
+    padding: 0px 60px 0px 20px!important;
+    line-height: 50px!important;
+}
+.email-input-container img {
+    width: 25px!important;
+    right: 20px!important;
+}
+.ftco-section {
+    padding: 20px!important;
+}
+.ftco-footer-widget h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.ftco-footer-widget ul li {
+    font-size: 14px;
+}
+.ftco-footer-widget {
+    margin: 0px -15px;
+}
+.goods_wrap {
+    padding: 20px!important;
+}
+.leftcontent {
+    padding: 15px!important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    display: none
+}
+.sec_wrap {
+    border-radius: 0px!important;
+}}

@@ -1,0 +1,154 @@
+
+
+.testCompContainerClass{
+    flex-direction: column;
+}
+
+
+@media only screen and (min-width: 576px) {
+        
+    .imgOnLeft {
+        flex-direction: row;
+    }
+
+    .imgOnRight {
+        flex-direction: row-reverse;
+    }
+   
+}
+
+.text-size{
+    font-weight: 700;
+    font-size: 40px;
+    color: #1E3164;
+    padding: 16px;
+
+
+}
+
+.para-size{
+    font-weight: 400;
+    font-size: 26px;
+    color: #1E3164;
+    margin-top: -22px;
+    padding: 12px;
+}
+
+
+.button{
+    background: #2883FF;
+    padding: 10px 40px;
+    border: 0px;
+    margin-top: 20px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 9px;
+}
+
+.Lights-pic{
+   width: 80%;
+    border-radius: 47px;
+}
+
+ .icons .parent-child:nth-child(1){
+   
+    
+        position: absolute;
+        bottom: -80px;
+
+        
+      
+}
+
+ .icons .parent2 .parent3 .parent4 .parent5 .parent-child:nth-child(2){
+   
+    
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+   }
+
+
+.icons .parent-child:nth-child(3){
+   
+    
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+  
+} 
+
+
+
+.section-text{
+    margin: 55px;
+    margin-left: 70px;
+
+ 
+
+}
+
+ @media only screen and (max-width: 576px){
+
+    .section-text{
+        margin: 10px;
+    }
+    .text-size{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .para-size{
+        font-weight: 400;
+        font-size: 22px;
+        
+    }
+} 
+
+@media only screen and (min-width: 576px){
+
+    .section-text{
+        margin: 15px;
+    }
+    .text-size{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .para-size{
+        font-weight: 400;
+        font-size: 24px;
+        
+    }
+}
+
+
+@media only screen and (min-width: 1200px)
+{
+
+   .section-text{
+    margin: 55px;
+    margin-left: 70px;
+
+ .text-size{
+    font-weight: 700;
+    font-size: 40px;
+    color: #1E3164;
+    padding: 16px;
+
+
+}
+
+.para-size{
+    font-weight: 400;
+    font-size: 26px;
+    color: #1E3164;
+    margin-top: -22px;
+    padding: 12px;
+}
+
+
+}
+
+}

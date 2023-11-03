@@ -1,0 +1,44 @@
+.testimonial_wrap {
+    padding: 50px 150px;
+}
+
+.testimonial_wrap h5{
+    margin-bottom: 120px;
+}
+
+.testimonial_wrap .circle{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 50px 30px;
+}
+
+.testimonial_wrap .circle img{
+    margin-top: -110px;
+}
+
+@media only screen and (max-width: 576px) {.testimonial_wrap {
+    padding: 20px 20px!important;
+}
+.testimonial_wrap h5 {
+    margin-bottom: 90px;
+}
+.testimonial_wrap h5,
+.tv-section h1 {
+    font-size: 24px!important;
+}
+.testimonial_wrap .circle img {
+    width: 100px;
+}
+.testimonial_wrap .circle img {
+    margin-top: -120px;
+}
+.stars .star-icon {
+    font-size: 18px;
+}
+.user-name,
+.card-text {
+    font-size: 15px;
+}
+.margbt {
+    margin-bottom: 70px;
+}}

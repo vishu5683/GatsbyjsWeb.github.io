@@ -1,0 +1,94 @@
+.right_light_banner{
+    position: relative;
+    background-image:url(./assets/wall.png);
+    background-size: cover;
+    width: 100%;
+    height:500px;
+}
+
+.wallpaper_section_content{
+    padding:150px 0px 0px 150px ;
+
+}
+
+.wallpaper_section_content .main_heading{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 32px;
+}
+.wallpaper_section_content .explore_button button{
+    background: #2883FF;
+    padding: 10px 40px;
+    border: 0px;
+    margin-top: 20px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 500;       
+}
+
+.sofa_section_wrap{
+    display: flex;
+    /* align-items: flex-end; */
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+.sofa_section_wrap .sofa_bx {
+    border: 1px solid #fff;
+    
+background: rgb(219,212,212);
+    background: linear-gradient(0deg, rgba(219,212,212,1) 100%, rgba(133,131,131,1) 100%);
+margin-right: 10px;
+padding: 5px 10px;
+border-radius: 8px;
+width: 107px;
+height: 93px;
+}
+
+.sofa_section_wrap .sofa_bx:nth-child(2){
+    background: rgb(217,217,217);
+    background: linear-gradient(0deg, rgba(217,217,217,1) 0%, rgba(132,133,131,1) 100%);
+}
+
+.sofa_section_wrap .sofa_bx:nth-child(3){
+    background: rgb(133,131,131);
+background: linear-gradient(0deg, rgba(133,131,131,1) 100%, rgba(217,217,217,1) 0%);
+}
+
+.sofa_section_wrap .sofa_bx:nth-child(4){
+    background: rgb(133,132,131);
+    background: linear-gradient(0deg, rgba(133,132,131,1) 79%, rgba(219,216,212,1) 93%, rgba(255,255,255,1) 100%);
+}
+
+.sofa_section_wrap .sofa_bx img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 59px;
+}
+
+.sofa_section_wrap .sofa_bx p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 576px) {  .wallpaper_section_content .main_heading {
+    font-size: 20px!important;
+}
+.wallpaper_section_content {
+    padding: 40px 0px 0px 20px!important;
+}
+.sofa_section_wrap {
+    width: 100%!important;
+    justify-content: flex-start!important;
+    padding-right: 0px!important;
+    flex-wrap: wrap!important;
+    padding-left: 20px!important;
+    margin-top: 40px!important;
+}
+.sofa_section_wrap .sofa_bx {
+    height: auto!important;
+    width: 67px!important;
+    padding: 5px 10px 5px 10px!important;
+    margin-bottom: 10px!important;
+}}

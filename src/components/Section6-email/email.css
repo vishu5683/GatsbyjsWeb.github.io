@@ -1,0 +1,41 @@
+.ftco-gallery {
+    background-image: url(./assets/subs.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    /* Add padding for spacing around the form */
+}
+
+
+/* Style the input type box */
+
+.ftco-gallery .form-control {
+    border-radius: 8px;
+    height: 70px;
+    width: 100%;
+    font-size: 26px;
+    padding: 0px 100px 0px 30px;
+    font-weight: 600;
+    color: #000;
+    line-height: 70px;
+    border: 0px;
+}
+
+.email-input-container {
+    position: relative;
+    max-width: 450px;
+    margin: 20px auto 0px auto;
+}
+
+.ftco-gallery .ftco-animate p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.email-input-container img {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    right: 50px;
+    transform: translateY(-50%);
+}
